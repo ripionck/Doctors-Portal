@@ -17,17 +17,17 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Email Address"
-            class="input w-full max-w-md"
+            className="input w-full max-w-md"
           />
           <br />
           <input
             type="text"
             placeholder="Subject"
-            class="input w-full max-w-md"
+            className="input w-full max-w-md"
           />
           <br />
           <textarea
-            class="textarea w-full max-w-md mb-8"
+            className="textarea w-full max-w-md mb-8"
             placeholder="Your Message"
             rows={6}
           ></textarea>

@@ -2,12 +2,12 @@ import React from "react";
 
 const Testimonial = ({ comment }) => {
   return (
-    <div class="card lg:max-w-lg bg-base-100 shadow-xl">
-      <div class="card-body">
+    <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+      <div className="card-body">
         <p>{comment.description}</p>
         <div className="flex items-center">
-          <div class="avatar my-6">
-            <div class="w-18 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <div className="avatar my-6">
+            <div className="w-18 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
               <img src={comment.img} alt="" />
             </div>
           </div>
