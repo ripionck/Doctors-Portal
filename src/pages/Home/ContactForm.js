@@ -27,7 +27,7 @@ const ContactForm = () => {
           />
           <br />
           <textarea
-            class="textarea w-full max-w-md"
+            class="textarea w-full max-w-md mb-8"
             placeholder="Your Message"
             rows={6}
           ></textarea>
